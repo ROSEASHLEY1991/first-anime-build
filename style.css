@@ -1,0 +1,333 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #F7F7F7;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #000000 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #aaaaaa 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #F7F7F7 0%, #000000 100%);
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+  }
+
+  /** Header styles **/
+
+/* Header styles */
+
+.header {
+    background-image: url(186-1860395_naruto-pain-akatsuki-tendou-konan-deidara-hoshigaki-akatsuki.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    } 
+
+  .anime {
+    margin: 40px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: #ffff;
+    overflow: auto;
+    width: 75%;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.anime p {
+   color: #161514;
+   text-align: center;
+   line-height: 24px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.spectrum div {
+    font: inherit;
+    padding: 0 20px;
+    color: #F7F7F7;
+    overflow: auto;
+    opacity: 0.9;
+}
+
+.spectrum p {
+    color: #F7F7F7;
+    text-align: left;
+}
+
+/* Anime shows */
+.demon {
+ background-color: rgb(0, 0, 0);
+}
+
+.juju {
+    background-color: rgb(59, 54, 59);
+}
+
+.mha {
+    background-color: rgb(0, 0, 0);
+}
+
+.spy {
+    background-color: rgb(59, 54, 59);
+}
+
+.ato {
+    background-color: rgb(2, 2, 2);
+}
+
+/* Typography */
+
+h1 {
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 3.5em; /* Adjust the font size as needed */
+    line-height: 1.2;
+    color: #F7F7F7;
+    background-color: rgba(255, 0, 0, 0.5); /* Add a background color with some transparency */
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #161514;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #161514;
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: .2em;
+  }
+  
+  h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: .2em;
+    font-weight: 300;
+  }
+
+ 
+
+/* Page elements */
+ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+  }
+  
+  li {
+    border-bottom: 1px solid #000000;
+    list-style: none;
+    margin: 100px 0px;
+    padding-bottom: 60px;
+  }
+  
+  p {
+    color: #000000;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100 bold;
+  }
+  
+  a {
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+
+  .container {
+    max-width: 1000px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* images */
+
+.left-image {
+     margin-right: 100px;
+     margin-left: -400px;
+     margin-bottom: 10px; /* Adjust this value to move the image up */
+     margin-top: 600px;
+    position: absolute;
+    top: -10px; /* Adjust this value to move the image up */
+   }
+
+.right-image {
+  margin-right: 100px;
+  margin-left: 550px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 500px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 1000px;
+ height: auto;
+ }
+
+ .bottom-image {
+  margin-left: 950px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 2100px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 370px;
+ height: auto;
+ }
+
+ .leftleft-image {
+  margin-left: -390px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 1980px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 300px;
+ height: auto;
+ }
+
+ .rightright-image {
+  margin-left: 950px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 3990px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 460px;
+ height: auto;
+ }
+
+ .levi {
+  margin-left: 867px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 1794px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 300px;
+ height: auto;
+ }
+
+ .luffy {
+  margin-left: 950px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 3070px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 430px;
+ height: auto;
+ }
+
+ .ma {
+  margin-left: -480px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 3900px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 400px;
+ height: auto;
+ }
+
+ .anya{
+  margin-left: 550px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 600px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 120px;
+ height: auto;
+ }
+
+ .nero {
+  margin-left: -550px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 600px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 170px;
+ height: auto;
+ }
+ 
+ .clover {
+  margin-left: 867px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 1500px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 300px;
+ height: auto;
+ }
+
+ .solo {
+  margin-left: -340px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 1400px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 400px;
+ height: auto;
+ }
+
+ .sas {
+  margin-left: -450px;
+  margin-bottom: 10px; /* Adjust this value to move the image up */
+  margin-top: 3000px;
+ position: absolute;
+ top: -10px; /* Adjust this value to move the image up */
+ width: 320px;
+ height: auto;
+ }
+ 
+ .jojojo {
+width: 180px;
+height: auto;
+margin-left: 350px;
+ }
+
+
+ 
+ @media screen and (max-width: 768px) {
+  /* Add styles for smaller screens */
+  .anime  {
+      width: 90%; /* Adjust as needed */
+  }
+
+  /* Adjust other styles as needed */
+}
+
+@media screen and (max-width: 480px) {
+  /* Add styles for even smaller screens */
+  .anime  {
+      width: 95%; /* Adjust as needed */
+  }
+
+  /* Adjust other styles as needed */
+}
+ 
+
+
